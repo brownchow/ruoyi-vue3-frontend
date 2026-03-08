@@ -21,3 +21,12 @@ selenium-debug.log
 
 package-lock.json
 yarn.lock
+
+# Yarn 2+ (Berry)
+.pnp.cjs
+.pnp.loader.mjs
+.yarn/
+*.mjs
+
+# Vite
+vite.config.js.timestamp-*
